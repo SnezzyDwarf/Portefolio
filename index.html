@@ -11,14 +11,20 @@
 <body>
   <header>
     <nav>
+
       <div class="nav-left">
-        <h2>Bruno Pernão</h2><!--logo / name-->
+        <a href='#about'>About</a><!--logo / name-->
+      </div>
+
+      <div class="nav-center1">
+        <a href="#projects">Projects</a>       
+      </div>
+
+      <div class="nav-center2">
+          <a href="#technologies">Technologies</a>
       </div>
 
       <div class='nav-right'>
-        <a href='#about'>About</a>
-        <a href="#projects">Projects</a>
-        <a href="#technologies">Technologies</a>
         <a href="#contacts">Contacts</a>
       </div>
 
@@ -29,19 +35,28 @@
   <main>
     <section id="about"><!--About me section-->
       <h1>
-        About Me</h1>
-      <p>
-        I am a developer transitioning into tech after several years working as a dental hygienist, a role where I
-        reached a high level of professional experience. I decided to shift my career towards my true passion and am
-        currently studying Full Stack Development, with a focus on Front End. I work with HTML, CSS and JavaScript,
-        paying close attention to accessibility, structure and best practices.
-        I am based in Portugal and fluent in Portuguese and English.
-      </p>
-      <img src="assets/images/myImage.png" alt="Professional photo of myself">
+        About Me
+      </h1>
+      <div class="container-about">
+        <div class="text-content">
+          <p>
+            My name is Bruno Pernao, i am a developer transitioning into tech after several years working as a dental hygienist, a role where I
+            reached a high level of professional experience. I decided to shift my career towards my true passion and am
+            currently studying Full Stack Development, with a focus on Front End. I work with HTML, CSS and JavaScript,
+            paying close attention to accessibility, structure and best practices.
+            I am based in Portugal and fluent in Portuguese and English.
+          </p>
+        </div>
+
+        <img src="assets/images/myImage.png" alt="Professional photo of myself">
+      </div>
+
+
     </section>
     <section id="projects"><!--Projects section-->
       <h2>Projects</h2>
-      <ul><!--List of projects-->
+      <div class="project-container">
+        <ul><!--List of projects-->
         <li>
           <h3>
             Personal Portfolio Website
@@ -62,6 +77,8 @@
 
         </li>
       </ul>
+      </div>
+      
     </section>
     <section id="technologies"><!--What i know-->
       <div><!--container of information tecnolgies-->
@@ -85,7 +102,10 @@
   </main>
 
   <footer id="contacts">
-    <a href="mailto:brunopernao92@gmail.com">brunopernao92@gmail.com</a>
+    <img src="assets/images/linkedin-plain.jpg" alt="Logo LinkedIn">
+    <img src="assets/images/gmail.jpg" alt="Logo Gmail">
+    <img src="assets/images/github.png">
+    <!--<a href="mailto:brunopernao92@gmail.com">brunopernao92@gmail.com</a>-->
   </footer>
   <script src="js/main.js"></script>
 
